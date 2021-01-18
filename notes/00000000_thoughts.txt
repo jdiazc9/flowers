@@ -1,0 +1,7 @@
+Because our initial artificial communities are going to have 8 species, it could happen that some resources are unused (none of the 8 species can use them or are vey inefficient at it, so they remain in the media). In these instances, Erwinia amylovora may invade (if it can use those resources) EVEN IF THE COMMUNITY IS STABILIZED AND IN STEADY STATE. And it thus could also invade if the community was out of equilibrium.
+
+Then, stabilizing communities before invading could make sense -even if it is not necessary in principle, because there is no turnover (dilution rate) in the flowers. Selecting the STABILIZED communities that suppress Erwinia growth the most would ensure that a) the species in the community can efficiently compete with Erwinia for the primary resources, minimizing its growth, and also b) Erwinia cannot grow in the byproducts of the community, ensuring that it cannot reach high abundance despite losing the initial competition for the primary resources. On the other hand, selecting communities out of equilibrium does not necessarily ensure b). Or actually, maybe it does?
+
+Cashew (?) sequencing? For communities of ~8 species? (check with Chang-Yu)
+
+Control: see if isolates (rather than multi-species communities) are able to supress growth of Erwinia. If they are not (which should be the case, as more species should occupy more niches and leave less room for Erwinia to grow), it would be a demonstration of how artificial selection of communities can make more sense than artificial selection of species in some practical cases.
