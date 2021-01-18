@@ -27,6 +27,7 @@ data_tab$species_family <- gsub("Pantoea","Enterobacteriaceae",data_tab$species_
 data <- data_tab[,c("species_num","species_family","species_name","species_id","sequence","sequence_id","sequence_info","sequence_length","sequence_number_of_matches")]
 data <- data[order(data$species_num),]
 data <- data[order(data$species_family),]
+row.names(data) <- NULL
 
 
 
