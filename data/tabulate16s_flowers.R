@@ -29,5 +29,16 @@ data <- data[order(data$species_num),]
 data <- data[order(data$species_family),]
 row.names(data) <- NULL
 
+# filter
+data <- data[!is.na(data$species_name),]
+unique_species_names <- unique(data$species_name[data$species_family!="Erwiniaceae"])
+n <- rep(0,length(unique_species_names))
+for (i in 1:length(unique_species_names)) {
+  n[i] <- which(data$species_name==unique_species_names[i])[1]
+}
+data <- data[n,]
+row.names(data) <- NULL
 
+write.table(data,file="flower_isolates.csv",sep=",",quote=F,
+            na="",row.names=F,col.names=T)
 
