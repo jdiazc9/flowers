@@ -1,0 +1,110 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{txfonts} % nice fonts
+\usepackage{upgreek} % nice "mu" character
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{pifont}
+\usepackage{wasysym}
+
+\newcommand{\idea}[1]{\textcolor{red}{#1}}
+
+\begin{document}
+
+\section*{\textit{FLOWERS} Protocol}
+
+\subsubsection*{Day 1}
+
+\begin{itemize}[label=\Square]
+
+\item Make Stigma-Based Medium (adapted)
+\item Make starters of jdc\_isolates and \textit{E. amylovora} in SBM; incubate
+at 30$^\circ$C
+
+\end{itemize}
+
+\subsubsection*{Day 2}
+
+\begin{itemize}[label=\Square]
+
+\item Wait for starters to grow
+
+\end{itemize}
+
+\subsubsection*{Day 3}
+
+\begin{itemize}[label=\Square]
+
+\item To make standarized starters, transfer to Stigma-Based Medium:
+\begin{itemize}[label=\Square]
+\item jdc\_isolates starters (6$\upmu$L to 600$\upmu$L of SBM per well in 96 deep well plate)
+\item \textit{E. amylovora} starter (20$\upmu$L to 2mL of SBM in snap cap Falcon tube)
+\end{itemize}
+
+\end{itemize}
+
+\subsubsection*{Day 4}
+
+\begin{itemize}[label=\Square]
+
+\item Wait for standarized starters to grow
+
+\end{itemize}
+
+\subsubsection*{Day 5}
+
+\begin{itemize}[label=\Square]
+
+\item Measure OD of jdc\_isolates and \textit{E. amylovora}
+\item Assemble communities using standarized starters of jdc\_isolates:
+\begin{itemize}[label=\Square]
+\item plate\_singles\_1 = jdc\_isolates
+\item plate\_singles\_2 = jdc\_isolates.rotate\_left()
+\item plate\_pairs\_1 = plate\_singles\_1 + plate\_singles\_2
+\item plate\_pairs\_2 = plate\_pairs\_1.shuffle\_rows()
+\item plate\_quad\_1 = plate\_pairs\_1 + plate\_pairs\_2
+\item plate\_quad\_2 = plate\_quad\_1.shuffle\_rows()
+\item plate\_quad\_3 = plate\_quad\_2.rotate\_left()
+\item plate\_communities = plate\_quad\_1 + plate\_quad\_3
+\end{itemize}
+\item Incolulate communities and standarized starter of \textit{E. amylovora}
+into fresh SBM (2$\upmu$L of each into 200$\upmu$L of SBM per well in 96 deep
+well plate)
+\item Incubate at 30$^\circ$C with transpirable filter
+
+\end{itemize}
+
+\subsubsection*{Day 6}
+
+\begin{itemize}[label=\Square]
+
+\item Wait for communities to grow
+
+\end{itemize}
+
+\subsubsection*{Day 7}
+
+\begin{itemize}[label=\Square]
+
+\item Wait for communities to grow
+
+\end{itemize}
+
+\subsubsection*{Day 8}
+
+\begin{itemize}[label=\Square]
+
+\item Transfer 100$\upmu$L per well to a standard 96 well plate
+\item Measure OD
+\item Measure GFP fluorescence
+\item Use FACS to quantify abundance of \textit{E. amylovora} in each community
+\begin{itemize}[label=\Square]
+\item If needed: dilute 30$\upmu$L of the communities into 270$\upmu$L of PBS
+per well in 96 deep well plate (1:10 dilution for a final 10-100 million cells
+per mL as required by FACS specifications)
+\end{itemize}
+
+
+\end{itemize}
+
+\end{document}
