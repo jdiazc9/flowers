@@ -1,0 +1,136 @@
+Apr 25 2021
+
+Started cultures of some isolates from the jdc-isolates plate in LB.
+I chose the first two rows of the plate (A3 to B10) for Enterobacteriaceae
+and the 4th and 5th rows (D5 to E10) for Pseudomonadaceae.
+
+Isolates are labeled in order as E1, E2, E3... and P1, P2, P3...
+for Enterobacteriaceae and Pseudomonadaceae respectively.
+
+Apr 26 2021
+
+I streaked each culture in LB agar plates.
+
+Apr 27 2021
+
+I picked a single colony from each plate* and put it in 2mL of LB in
+snap cap Falcon tubes. I put in the incubator at 30deg.
+
+*Some plates showed multiple colony morphologies (presumed contamination).
+I will deal with this tomorrow.
+
+Apr 28 2021
+
+I put 5uL of each culture in chromogenic medium plates and incubated at 30deg.
+
+Apr 29 2021
+
+All E cultures appear to be Enterobacteriaceae indeed (white to yellow colonies
+in chromogenic).
+
+Most P cultures appear to be Pseudomonadaceae indeed (blue colonies
+in chromogenic).
+
+Exceptions:
+    - P10 and P12 are light blue/turquoise (Citrobacter?).
+      I went back to the streaked plates and picked new colonies, put them in
+      LB and incubated at 30deg.
+      Before incubating, I shaked the tubes thorughly and plated 25uL in chromogenic.
+    - P14 is dark blue (probably Enterobacteriaceae).
+      I went back to the streaked plate and picked two colonies with different
+      morphologies (this is one of the plates that showed contamination). I picked 
+      one white-ish colony and one yelow-ish colony.
+      Again, I shaked the tubes thoroughly and put 25uL in chromogenic.
+
+If this doesn't solve the issues, it is OK to substitute P10, P12 and P14 for
+some other P strains (e.g. P6, P7 and P8 respectively). This is the safest option
+to start the monocultures tomorrow.
+
+Apr 30 2021
+
+The two colonies of P14 that I picked (P14w, the white colony; and P14y, the yellow
+colony) resulted in weird results in chromogenic:
+    - P14w seems to be indeed an Enterobacteriaceae (dark blue in chromogenic)
+    - P14y gave a mix of white and dark blue spots in chromogenic, indicating that
+      I most likely picked two species at re-isolation (colonies were very close
+      to one another so it's very possible that I picked up two)
+I could re-isolate P14y to get a monoculture of the Pseudomonadaceae, but I don't
+think it's worth the trouble. It's easier to just subtitute P14 for one of the
+other Pseudomonadaceae.
+
+P10 and P12 gave the same results as yesterday (still light blue/greenish in
+chromogenic, possible Citrobacter).
+
+We will thus be making the following substitutions:
+
+P10 -> P6
+P12 -> P7
+P14 -> P8
+
+I inoculated all cultures between 10am and 11am with 1/500th of the final volumes
+from the starters (see communities.xlsx for volumes).
+I left cultures to grow at room temperature (roughly 22deg).
+
+I also got some cryogenic tubes ready with 500uL glycerol 80%. Tomorrow I will add
+500uL of each monoculture to them and freeze at -80deg.
+
+I am somewhat concerned about cross-contamination when pipetting. Especially for
+the cultures for which I needed a larger inoculum volume (max. was 1000uL), the
+mixing I did prior to inoculating may have led to some droplets being deposited
+on the pipette. This could have led to some carryover to the next inoculum. The
+effect will be hard to notice in cryogenic medium, since contaminations would be
+from the same family.
+I tried to be careful with this and cleaned the pipette with ethanol several times
+between inoculations. I think we should be OK but it would be nice to check leter
+on (maybe streaking plates? colony morphologies should be too similar to detect
+evident contamination, but maybe it would be useful in some cases...)
+
+Apr 1 2021
+
+Assembled the communities:
+- Centrifuged every monoculture in batched of 50mL at 3000rpm for 10min
+  (gently to avoid crushing cells)
+- Re-suspended every batch into 5ml of PBS to obtain 10X concentrated monocultures
+- Used the concentrated monocultures to assemble the communities (mixing equal volumes
+  of every isolate according to table in communities.xlsx)
+
+I went to the CAES farm and helped Quan Zeng spray my communities over the trees.
+There were 20 trees, 2 of them were left as a control (no spraying). Of the other
+18 trees, we used 2 trees per treatment. We sprayed 9 treatments total, corresponding
+to communities 1 to 9 and community 10. Community 9 was not used. Trees labeled as
+'9' correspond to community 10. All other trees are labeled according to the community
+they were sprayed with.
+
+Apr 3 2021
+
+Went back to the CAES farm. Collected 20 flowers per tree and brought them back
+to our lab to freeze at -80deg. Avoided picking newly bloomed flowers so we don't
+end up with ones that bloomed after the spraying 2 days ago.
+
+In the afternoon, I helped Quan Zeng spray Erwinia over the trees.
+
+Apr 5 2021
+
+Went back to the CAES farm. Collected 30 flowers per tree, froze at -80deg.
+
+I also used the starters of my isolate monocultures to make glycerol stocks.
+I put the glycerol stocks in Anna (-80deg).
+
+Apr 6 2021
+
+I took the concentrated monocultures (that I had prepared n Apr 1). Transfered
+1mL of each monoculture to a 96 deep-well plate:
+- E1 to E8 in wells A3 to A10
+- E9 to E16 in wells B3 to B10
+- P1 to P8 in wells D3 to D10
+- P9 to P16 in wells E3 to E10
+Centrifuged at 3000rpm for 30min to pellet the cells. Removed supernatant and
+froze at -80deg for later sequencing (if needed).
+
+
+
+
+
+
+
+
